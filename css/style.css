@@ -1,0 +1,94 @@
+/*CSS RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*BODY*/
+body {
+    font-family: "Fredoka One", sans-serif;
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+/*HEADER*/
+header {
+    margin: 50px 0;
+}
+
+/*TITOLO*/
+h1 {
+    font-size: 50px;
+    color:purple;
+    text-align: center;
+}
+
+/*SOTTOTITOLO*/
+p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*CONTAINER*/
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*CLEARFIX*/
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/*COLUMN*/
+.column {
+    width: calc(100%/3);
+    float: left;
+    padding: 10px;
+}
+
+/*CARD*/
+.card {
+    color: white;
+    background-color: black;
+    height: 100px;
+}
+
+/*IMMAGINI*/
+.card-image {
+    width: auto;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+/*CARD CONTENT*/
+.card-content {
+    padding: 10px;
+    line-height: calc(80px/3);
+}
+
+/*A*/
+a {
+    text-decoration: none;
+    color: lightskyblue;
+    font-size: small;
+}
+
+/*H3*/
+h3 {
+    text-transform: uppercase;
+}
+
+/*ROW*/
+.row {
+    margin: 0 -10px;
+}
+
+/*RUOLO*/
+.role {
+    font-size: small;
+}
